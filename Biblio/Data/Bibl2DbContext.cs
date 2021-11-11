@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Biblioteka.Models;
+using Biblio.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Biblioteka.Data
+namespace Biblio.Data
 {
-    public class BiblDbContext : DbContext
+    public class Bibl2DbContext : DbContext
     {
-        public BiblDbContext(DbContextOptions<BiblDbContext> options) : base(options)
+        public Bibl2DbContext(DbContextOptions<Bibl2DbContext> options) : base(options)
         {
         }
 

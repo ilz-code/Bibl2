@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
 
-namespace Biblioteka.Data
+namespace Biblio.Data
 {
     public class Searches
     {
-        public static void SearchYear(BiblDbContext context)
+        public static void SearchYear(Bibl2DbContext context)
         {
             int year = 1966;
             var res = context.Gramatas.
@@ -19,7 +19,7 @@ namespace Biblioteka.Data
             Console.WriteLine();
         }
 
-        public static void SearchAuthors(BiblDbContext context)
+        public static void SearchAuthors(Bibl2DbContext context)
         {
             string autors = "A. Konans Doils";
             

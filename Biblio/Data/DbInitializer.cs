@@ -1,11 +1,11 @@
 ﻿using System.Linq;
-using Biblioteka.Models;
+using Biblio.Models;
 
-namespace Biblioteka.Data
+namespace Biblio.Data
 {
     public class DbInitializer
     {
-        public static void Initialize(BiblDbContext context)
+        public static void Initialize(Bibl2DbContext context)
         {
             context.Database.EnsureCreated();
             

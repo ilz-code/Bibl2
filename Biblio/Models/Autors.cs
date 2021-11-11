@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Biblioteka.Models
+namespace Biblio.Models
 {
     public class Autors
     {
